@@ -5,3 +5,8 @@ SEISMIC_CPML is a set of twelve open-source Fortran90 programs to solve the two-
 
 See README_seismic_cpml.html in this directory for more details.
 
+Author
+---------
+
+Sourangshu Ghosh
+
