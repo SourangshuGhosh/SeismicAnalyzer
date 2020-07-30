@@ -10,6 +10,7 @@
 ! Geophysical Journal, vol. 93, p. 393-407 (1988)
 
 !! DK DK Dimitri Komatitsch, CNRS Marseille, France, April 2017
+!! Update done By Sourangshu Ghosh
 !! DK DK adapted from a program written for the viscoelastic case by Jose' M. Carcione.
 
   implicit none
