@@ -5,6 +5,7 @@
 
 ! This program implements the analytical solution for the velocity vector in a 2D plane-strain viscoelastic medium
 ! with a vertical force source located in (0,0),
+! Update done by Sourangshu Ghosh
 ! from Appendix B of Carcione et al., Wave propagation simulation in a linear viscoelastic medium, GJI, vol. 95, p. 597-611 (1988)
 ! (note that that Appendix contains two typos, fixed in this code; I added two comments below to mention them).
 ! The amplitude of the force is called F and is defined below.
@@ -14,6 +15,7 @@
 !! DK DK May 2018: the missing 1/L factor in older Carcione papers
 !! DK DK May 2018: has been added to this code by Quentin Brissaud and by Etienne Bachmann
 !! DK DK for the viscoacoustic code in directory EXAMPLES/attenuation/viscoacoustic,
+!! Update done By Sourangshu Ghosh
 !! DK DK it would be very easy to copy the changes from there to this viscoelastic version;
 !! DK DK but then all the values of the tau_epsilon in the code below would need to change.
 
@@ -84,6 +86,7 @@
 
 ! DK DK I implemented a very simple and slow inverse Discrete Fourier Transform
 ! DK DK at some point, for verification, using a double loop. I keep it just in case.
+! Update done By Sourangshu Ghosh
 ! DK DK For large number of points it is extremely slow because of the double loop.
 ! DK DK Thus there is no reason to turn this flag on.
   logical, parameter :: USE_SLOW_FOURIER_TRANSFORM = .false.
