@@ -25,7 +25,10 @@
 ! 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 !
 ! The full text of the license is available in file "LICENSE".
-
+!
+! Author: Sourangshu Ghosh
+!
+!
   program seismic_PML_Collino_3D_iso
 
 ! IMPORTANT : all our CPML codes work fine in single precision as well (which is significantly faster).
@@ -43,7 +46,7 @@
 ! INRIA Research Report RR-3471, August 1998
 ! http://hal.inria.fr/docs/00/07/32/19/PDF/RR-3471.pdf
 !
-! and
+! and Modified by Sourangshu Ghosh
 !
 ! @ARTICLE{CoTs01,
 ! author = {F. Collino and C. Tsogka},
