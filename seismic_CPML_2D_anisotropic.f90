@@ -25,7 +25,9 @@
 ! 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 !
 ! The full text of the license is available in file "LICENSE".
-
+!
+! Author: Sourangshu Ghosh
+!
   program seismic_CPML_2D_aniso
 
 ! 2D elastic finite-difference code in velocity and stress formulation
@@ -103,6 +105,8 @@
 ! number = {5},
 ! pages = {SM155-SM167},
 ! doi = {10.1190/1.2757586}}
+!
+! Modified by Sourangshu Ghosh
 !
 ! If you use the anisotropic implementation, please cite this article,
 ! in which the anisotropic parameters are described, as well:
