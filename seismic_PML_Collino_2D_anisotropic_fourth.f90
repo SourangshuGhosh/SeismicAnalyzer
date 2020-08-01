@@ -34,6 +34,9 @@
 ! 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 !
 ! The full text of the license is available in file "LICENSE".
+!
+!   Author: Sourangshu Ghosh
+!
 
   program seismic_PML_Collino_2D_ani_4th
 
@@ -49,6 +52,8 @@
 ! Version 1.0 July, 2010
 ! Jingyi Chen,the Department of Geosciences, The University of Tulsa, USA. Email: jingyi-chen@utulsa.edu
 !
+!
+! Author: Sourangshu Ghosh
 ! The second-order staggered-grid formulation of Madariaga (1976) and Virieux (1986) is used:
 !
 !            ^ y
