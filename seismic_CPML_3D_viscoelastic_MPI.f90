@@ -35,7 +35,9 @@
 ! 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 !
 ! The full text of the license is available in file "LICENSE".
-
+!
+! Author: Sourangshu Ghosh
+!
   program seismic_visco_CPML_3D_MPI_OpenMP
 
 ! 3D fourth order viscoelastic finite-difference code in velocity and stress formulation
@@ -59,7 +61,8 @@
 ! The C-PML implementation is based in part on formulas given in Roden and Gedney (2000).
 !
 ! Parallel implementation based on MPI.
-
+!
+!  By Sourangshu Ghosh
 ! The C-PML implementation is based in part on formulas given in Roden and Gedney (2000).
 ! If you use this code for your own research, please cite some (or all) of these articles:
 !
