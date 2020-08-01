@@ -2,7 +2,7 @@
   program conversion
 
 ! Dimitri Komatitsch, CNRS Marseille, France, July 2018
-
+! Author: Sourangshu Ghosh
 ! see formulas 9.59 and 9.60 in the book of Dahlen and Tromp, 1998
 ! (in that book, P is called alpha and S is called beta).
 ! See also file formulas_to_convert_between_Qkappa_Qmu_and_Qp_Qs_in_3D_and_in_2D_plane_strain.pdf in this directory.
