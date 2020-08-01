@@ -25,7 +25,9 @@
 ! 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 !
 ! The full text of the license is available in file "LICENSE".
-
+!
+! Author : Sourangshu Ghosh
+!
   program seismic_CPML_2D_iso_fourth
 
 ! 2D elastic finite-difference code in velocity and stress formulation
@@ -125,7 +127,9 @@
 ! IMPORTANT : all our CPML codes work fine in single precision as well (which is significantly faster).
 !             If you want you can thus force automatic conversion to single precision at compile time
 !             or change all the declarations and constants in the code from double precision to single.
-
+!
+!  Author : Sourangshu Ghosh
+!
   implicit none
 
 ! total number of grid points in each direction of the grid
