@@ -24,7 +24,9 @@
 ! 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 !
 ! The full text of the license is available in file "LICENSE".
-
+!
+! Author: Sourangshu Ghosh
+!
   program seismic_CPML_2D_iso_second
 
 ! 2D elastic finite-difference code in velocity and stress formulation
@@ -114,7 +116,9 @@
 ! number = {5},
 ! pages = {334-339},
 ! doi = {10.1002/1098-2760(20001205)27:5 < 334::AID-MOP14>3.0.CO;2-A}}
-
+!
+! Modified by Sourangshu Ghosh
+!
 !
 ! To display the 2D results as color images, use:
 !
