@@ -17,7 +17,7 @@
 ! Journal = {Geophysical Journal International},
 ! Year    = {2015},
 ! Note    = {in press.}}
-
+! Author : Sourangshu Ghosh
 !-------------------------------------------------------------------------
 
 ! From Bruno Lombard, May 2014:
@@ -37,7 +37,7 @@
 ! il peut y avoir des differences au 4eme chiffre significatif. C'est sans consequences sur la precision du calcul :
 ! l'erreur est de 0.015 % avec optimization non lineaire, a comparer a 1.47 % avec Emmerich and Korn (1987).
 ! Si je relance le calcul en initialisant avec le resultat precedent, ce chiffre varie a nouveau tres legerement.
-
+! Author: Sourangshu Ghosh
 !-------------------------------------------------------------------------
 
 ! From Bruno Lombard, June 2014:
@@ -64,7 +64,7 @@
 ! Et quand SPECFEM2D obtient un bon accord avec cette solution analytique, ca valide SPECFEM, mais pas le calcul des coefficients.
 
 ! Il y a donc une erreur dans [1,2], et [3] a raison.
-
+! Author: Sourangshu Ghosh
 ! Sa solution analytique decoule d'un travail sur ses fonctions de relaxation (A4),
 ! qu'il injecte ensuite dans la relation de comportement (A1) et travaille en Fourier.
 
@@ -105,7 +105,7 @@
 ! pour votre modele visco, et etudier l'effet des coefficients ainsi obtenus.
 
 !---------------------------------------------------
-
+! Author: Sourangshu Ghosh
 ! From Emilie Blanc, March 2014:
 
 ! Les entrees du programme principal sont le nombre de variables
