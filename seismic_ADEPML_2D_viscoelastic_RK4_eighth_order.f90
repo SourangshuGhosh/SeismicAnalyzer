@@ -28,7 +28,10 @@
 ! 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 !
 ! The full text of the license is available in file "LICENSE".
-
+!
+!
+!   Author: Sourangshu Ghosh
+!
 program seismic_ADEPML_2D_viscoelastic_RK4_eighth_order
 
 ! High order 2D explicit-semi implicit-implicit viscoelastic finite-difference code
@@ -51,7 +54,9 @@ program seismic_ADEPML_2D_viscoelastic_RK4_eighth_order
 ! This comes from the fact that in that model the relaxed state at zero frequency is used as a reference instead of
 ! the unrelaxed state at infinite frequency. These days a causal model should be used instead,
 ! i.e. one using the unrelaxed state at infinite frequency as a reference.
-
+!
+! Author: Sourangshu Ghosh
+!
 ! The 8th-order staggered-grid formulation of Holberg is used:
 !
 !            ^ y
@@ -160,7 +165,9 @@ program seismic_ADEPML_2D_viscoelastic_RK4_eighth_order
 ! number = {5},
 ! pages = {334-339},
 ! doi = {10.1002/1098-2760(20001205)27:5 < 334::AID-MOP14>3.0.CO;2-A}}
-
+!
+!  Author: Sourangshu Ghosh
+!
 !
 ! To display the 2D results as color images, use:
 !
